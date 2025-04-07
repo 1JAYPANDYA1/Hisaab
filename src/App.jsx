@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { PlusCircle, Calculator, UserPlus2 } from 'lucide-react';
 
 function App() {
+  // hello
   const [persons, setPersons] = useState([{ id: 1, name: '' }]);
   const [foods, setFoods] = useState([]);
   const [personCosts, setPersonCosts] = useState({});
